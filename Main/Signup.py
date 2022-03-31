@@ -17,7 +17,7 @@ driver.find_element(by=By.NAME, value="lastName").send_keys("Ram")
 driver.find_element(by=By.NAME, value="email").send_keys("xyz@gmail.com")
 driver.find_element(by=By.NAME, value="newPassword").send_keys("xyzabc")
 driver.find_element(by=By.XPATH, value="//button[@class='btn btn-primary ng-scope ng-isolate-scope']").click()
-
+driver.implicitly_wait(10)
 driver.close()
 
 

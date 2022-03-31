@@ -17,4 +17,6 @@ driver.implicitly_wait(10)
 driver.find_element(by=By.XPATH, value="//div[@class='global-search-input-wrapper']/input[2]").click()
 
 print(driver.title)
+driver.maximize_window()
+driver.implicitly_wait(10)
 driver.close()
