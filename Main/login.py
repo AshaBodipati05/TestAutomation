@@ -13,4 +13,4 @@ driver.find_element(by=By.XPATH, value="(//span[@class='input-wrapper']/input[1]
 driver.find_element(by=By.XPATH, value="(//span[@class='input-wrapper']/input[1])[2]").send_keys("Sairam@156")
 driver.find_element(by=By.XPATH, value="//button[@class='btn btn-primary btn-submit ng-isolate-scope']").click()
 
-driver.close()
+#driver.close()
