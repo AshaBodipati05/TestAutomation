@@ -12,4 +12,4 @@ print(driver.find_element(by=By.XPATH, value="(//div[@class='contentItem__header
 
 driver.find_element(by=By.XPATH, value="(//button[@class='button-alt sm'])[1]").click()
 driver.implicitly_wait(15)
-#driver.close()
+driver.close()
